@@ -33,7 +33,7 @@ Zbór danych pochodzi z: [Blood Cell Images](https://www.kaggle.com/datasets/pau
 
 1. Warstwa wejściowa przetwarzająca obrazy (240x240 px, RGB)
 2. Trzy bloki warstw konwolucyjnych z filtrami i warstwami poolingowymi
-3. Warstwa spłaszczającej (Flatten)
+3. Warstwa spłaszczająca (Flatten)
 4. Gęsta warstwa w pełni połączona (Dense)
 5. Warstwa wyjściowa (4 klasy, softmax)
 
@@ -41,7 +41,7 @@ Zbór danych pochodzi z: [Blood Cell Images](https://www.kaggle.com/datasets/pau
 
 1. Warstwa wejściowa przetwarzająca obrazy (240x240 px, RGB)
 2. Dwa bloki warstw konwolucyjnych z filtrami i warstwami poolingowymi
-3. Warstwa spłaszczającej (Flatten)
+3. Warstwa spłaszczająca (Flatten)
 4. Gęsta warstwa w pełni połączona (Dense)
 5. Warstwa odrzucająca połowę wyników (Dropout)
 6. Warstwa wyjściowa (4 klasy, softmax)
